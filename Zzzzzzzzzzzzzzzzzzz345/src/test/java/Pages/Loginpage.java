@@ -18,7 +18,7 @@ public class Loginpage {
 		
 	}
 	@FindBy(name="username") WebElement user;
-	@FindBy(name="password1") WebElement pass;
+	@FindBy(name="password") WebElement pass;
 	@FindBy(id="tdb1") WebElement button;
 	public void testtogcrit(String uname,String upass){
 		user.sendKeys(uname);
