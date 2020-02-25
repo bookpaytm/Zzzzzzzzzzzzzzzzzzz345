@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20004" started-at="2020-02-25T05:25:53Z" finished-at="2020-02-25T05:26:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20004" started-at="2020-02-25T05:25:53Z" finished-at="2020-02-25T05:26:13Z">
+      <class name="Testcases.Testtogcr">
+        <test-method status="PASS" signature="setsuite()[pri:0, instance:Testcases.Testtogcr@724af044]" name="setsuite" is-config="true" duration-ms="1776" started-at="2020-02-25T10:55:51Z" finished-at="2020-02-25T10:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setsuite -->
+        <test-method status="PASS" signature="setapp()[pri:0, instance:Testcases.Testtogcr@724af044]" name="setapp" is-config="true" duration-ms="13590" started-at="2020-02-25T10:55:53Z" finished-at="2020-02-25T10:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setapp -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Testcases.Testtogcr@724af044]" name="launchbrowser" duration-ms="1939" started-at="2020-02-25T10:56:06Z" finished-at="2020-02-25T10:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="currentdatetime(org.testng.ITestResult)[pri:0, instance:Testcases.Testtogcr@724af044]" name="currentdatetime" is-config="true" duration-ms="3050" started-at="2020-02-25T10:56:08Z" finished-at="2020-02-25T10:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchbrowser status=SUCCESS method=Testtogcr.launchbrowser()[pri:0, instance:Testcases.Testtogcr@724af044] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentdatetime -->
+        <test-method status="PASS" signature="shuntdown()[pri:0, instance:Testcases.Testtogcr@724af044]" name="shuntdown" is-config="true" duration-ms="1401" started-at="2020-02-25T10:56:11Z" finished-at="2020-02-25T10:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shuntdown -->
+      </class> <!-- Testcases.Testtogcr -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
